@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color: #f1f1f1;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: #808080;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+</style>
+</head>
+<body>
+<ul><li><a class ="active" href ="home.html" target="viewReport">Home</a></li><li><a href="Section1.html"  target = "viewReport">Diagrams</a></li><li><a href="Section2.html"  target = "viewReport">Tables</a></li><li><a href="Section3.html"  target = "viewReport">Relationships</a></li><li><a href="Section4.html"  target = "viewReport">Indexes</a></li><li><a href="Section5.html"  target = "viewReport">Views</a></li><li><a href="Section6.html"  target = "viewReport">Stored Procedures</a></li><li><a href="Section7.html"  target = "viewReport">Functions</a></li><li><a href="Section8.html"  target = "viewReport">Table Triggers</a></li></ul>
+<div style="margin-left:15%;padding:1px 16px;height:1000px;">
+<iframe src="" name="viewReport" height="100%" width="100%" style="border:none;"  title=""></iframe>
+</div>
+
+</body>
+</html>
